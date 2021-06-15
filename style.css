@@ -1,18 +1,31 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(4, 134, 102), rgb(255, 188, 168));
 }
 
-button {
-  font-size: 7px;
+.button {
+  background-color: #07a00c;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.3;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
+.button:hover {opacity: 1}  
+
 
 #main-content {
   position: relative;
